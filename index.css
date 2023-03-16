@@ -1,0 +1,28 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    background-color: black;
+    text-align: center;
+}
+.conten{
+    /* width: 400px; */
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: solid #ccc 1px; */
+}
+.conten ul{
+    transition: all .4;
+}
+.conten ul li{
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    list-style: none;
+    transition: all .3s;
+}
+
+.conten ul li.active{
+    color: white;
+    transform: scale(1.2);
+}
